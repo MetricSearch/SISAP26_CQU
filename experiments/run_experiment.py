@@ -12,33 +12,18 @@ import falconn
 import time
 
 MF_DINO2 = "mf_dino2"
-MF_DINO2_GENERAL_EUC = "mf_dino2_general_euc"
 GLOVE = "glove"
-GLOVE_GENERAL_EUC = "glove_general_euc"
 GOOAQ = "gooaq"
-UNIFORM = "uniform"
 PUBMED = "pubmed"
-MF_EDGEHISTOS = "mf_edgehistos"
-LAION = "laion"
-LAION_GENERAL_EUC = "laion_general_euc"
-SIFT = "sift"
-SIFT_GENERAL_EUC = "sift_general_euc"
 
-AVAILABLE_DATASETS = [MF_DINO2, MF_DINO2_GENERAL_EUC, MF_EDGEHISTOS, GLOVE, GLOVE_GENERAL_EUC, GOOAQ, PUBMED, UNIFORM, LAION, LAION_GENERAL_EUC, SIFT, SIFT_GENERAL_EUC]
+AVAILABLE_DATASETS = [MF_DINO2, GLOVE, GOOAQ, PUBMED]
 
 # Dataset layout. Override DATASET_ROOT when the datasets are stored elsewhere.
 DATASET_ROOT = Path(os.environ.get("DATASET_ROOT", "/datasets"))
-SIFT_DATASET_PATH = DATASET_ROOT / "sift" / "sift_base.fvecs"
 MF_DINO2_DATASET_DIR = DATASET_ROOT / "mf_dino2"
 GLOVE_DATASET_PATH = DATASET_ROOT / "twitter_glove" / "twitter_glove_100d.npy"
-MF_EDGEHISTOS_DATASET_PATH = (
-    DATASET_ROOT / "mf_mpeg7_edgehistos" / "all_edgehistogram_data.npy"
-)
 PUBMED_DATASET_PATH = DATASET_ROOT / "pubmed" / "benchmark-dev-pubmed23.h5"
 GOOAQ_DATASET_PATH = DATASET_ROOT / "gooaq" / "benchmark-dev-gooaq.h5"
-LAION_DATASET_PATH = (
-    DATASET_ROOT / "laion" / "laion-10M" / "laion2B-en-pca96v2-n=10M.h5"
-)
 
 RESULTS_DIR = Path(
     os.environ.get("RESULTS_ROOT", Path(__file__).resolve().parent)
@@ -52,30 +37,6 @@ CQU_LSH_PATH = "cqu_lsh.json"
 RECALL_THRESHOLD = 0.0
 N_QUERIES = 250
 
-# https://gist.github.com/danoneata/49a807f47656fedbb389
-def get_sift_general_euc(c_contiguous=True):
-    fv = np.fromfile(SIFT_DATASET_PATH, dtype=np.float32)
-    if fv.size == 0:
-        return np.zeros((0, 0))
-    dim = fv.view(np.int32)[0]
-    assert dim > 0
-    fv = fv.reshape(-1, 1 + dim)
-    if not all(fv.view(np.int32)[:, 0] == dim):
-        raise IOError(f"Non-uniform vector sizes in {SIFT_DATASET_PATH}")
-    fv = fv[:, 1:]
-    if c_contiguous:
-        fv = fv.copy()
-            
-    print(f"Pre-uniqued size: {fv.shape[0]}")
-    fv = np.unique(fv, axis=0)
-    print(f"Post uniqued size: {fv.shape[0]}")
-        
-    return fv
-
-def get_sift(c_contiguous=True):
-    vecs = get_sift_general_euc(c_contiguous)
-    return vecs / np.linalg.norm(vecs, axis=1, keepdims=True)
-
 def get_mf_dino2():
     data = np.zeros((0, 384), dtype=np.float32)
 
@@ -85,36 +46,6 @@ def get_mf_dino2():
         fp /= np.linalg.norm(fp, axis=1, keepdims=True)
         data = np.vstack((data, fp))
 
-    return data
-
-def get_mf_dino2_general_euc():
-    data = np.zeros((0, 384), dtype=np.float32)
-
-    # Load Dino2
-    for i in range(100):
-        fp = loadmat(MF_DINO2_DATASET_DIR / f"{i}.mat")['features']
-        data = np.vstack((data, fp))
-
-    return data
-
-def get_glove_general_euc():
-    data = np.load(GLOVE_DATASET_PATH)
-    data = data.astype(np.float32)
-    # We do NOT l2 norm
-    # data /= np.linalg.norm(data, axis=1, keepdims=True)
-    return data
-
-def get_mpeg7_edgehistos():
-    data = np.load(MF_EDGEHISTOS_DATASET_PATH)
-    data = data.astype(np.float32)
-
-    data -= np.mean(data)
-    data /= np.linalg.norm(data, axis=1, keepdims=True)
-    return data
-
-def get_uniform():
-    data = np.random.normal(0, 1, size=(1_000_000, 200)).astype(np.float32)
-    data /= np.linalg.norm(data, axis=1, keepdims=True)
     return data
 
 def get_glove():
@@ -140,31 +71,6 @@ def get_gooaq():
         data = f["train"][:]
     data = data.astype(np.float32)
     data /= np.linalg.norm(data, axis=1, keepdims=True)
-    return data
-
-def get_laion():
-    with h5py.File(LAION_DATASET_PATH, 'r') as hdf:
-        data = hdf['pca96'][:]
-        data /= np.linalg.norm(data, axis=1, keepdims=True)
-
-    data = np.ascontiguousarray(data)        
-    print(f"Pre-uniqued size: {data.shape[0]}")
-    
-    data = np.unique(data, axis=0)
-    print(f"Post uniqued size: {data.shape[0]}")
-        
-    return data
-
-def get_laion_general_euc():
-    with h5py.File(LAION_DATASET_PATH, 'r') as hdf:
-        data = hdf['pca96'][:]
-        data = data[:3_000_000]
-        
-    print(f"Pre-uniqued size: {data.shape[0]}")
-    
-    data = np.unique(data, axis=0)
-    print(f"Post uniqued size: {data.shape[0]}")
-        
     return data
 
 def scramble_separate_queries(data, n_queries):
@@ -444,31 +350,12 @@ if __name__ == "__main__":
     
         
     if dataset == MF_DINO2:
-        # Run the dino2 experiments
         run_experiments(dataset, N_QUERIES, get_mf_dino2())
-    elif dataset == MF_DINO2_GENERAL_EUC:
-        # Run the dino2 experiments
-        run_experiments(dataset, N_QUERIES, get_mf_dino2_general_euc())
     elif dataset == GLOVE:
         run_experiments(dataset, N_QUERIES, get_glove())
-    elif dataset == GLOVE_GENERAL_EUC:
-        run_experiments(dataset, N_QUERIES, get_glove_general_euc())
     elif dataset == GOOAQ:
         run_experiments(dataset, N_QUERIES, get_gooaq())
-    elif dataset == UNIFORM:
-        run_experiments(dataset, N_QUERIES, get_uniform())
     elif dataset == PUBMED:
         run_experiments(dataset, N_QUERIES, get_pubmed())
-    elif dataset == MF_EDGEHISTOS:
-        run_experiments(dataset, N_QUERIES, get_mpeg7_edgehistos())
-    elif dataset == LAION:
-        run_experiments(dataset, N_QUERIES, get_laion())
-    elif dataset == LAION_GENERAL_EUC:
-        run_experiments(dataset, N_QUERIES, get_laion_general_euc())
-    elif dataset == SIFT:
-        run_experiments(dataset, N_QUERIES, get_sift())
-    elif dataset == SIFT_GENERAL_EUC:
-        run_experiments(dataset, N_QUERIES, get_sift_general_euc())
-
     else:
         raise RuntimeError(f"Unknown dataset. Datasets are: {AVAILABLE_DATASETS}")

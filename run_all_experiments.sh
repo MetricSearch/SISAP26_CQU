@@ -1,4 +1,7 @@
-python3 experiments/run_experiment.py glove
-python3 experiments/run_experiment.py gooaq
-python3 experiments/run_experiment.py mf_dino2
-python3 experiments/run_experiment.py pubmed
+docker build -t cqu-lsh . &&
+for dataset in glove gooaq mf_dino2 pubmed; do
+  docker run --rm \
+    -v /Volumes/Data:/datasets:ro \
+    -v "$PWD/experiments:/results" \
+    cqu-lsh "$dataset"
+done
