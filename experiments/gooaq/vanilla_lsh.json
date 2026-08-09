@@ -1,0 +1,3269 @@
+[
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 3131.451537,
+    "recall": 0.08564000000000002,
+    "size_mb": 8.042961120605469,
+    "time_ms": 0.052879216
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 3092.406706,
+    "recall": 0.37144,
+    "size_mb": 8.042961120605469,
+    "time_ms": 0.685841068
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 3090.789553,
+    "recall": 0.45627999999999996,
+    "size_mb": 8.042961120605469,
+    "time_ms": 1.198574588
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 3098.369621,
+    "recall": 0.50636,
+    "size_mb": 8.042961120605469,
+    "time_ms": 1.64492682
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 3089.814535,
+    "recall": 0.5410400000000001,
+    "size_mb": 8.042961120605469,
+    "time_ms": 2.089999268
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 3074.149265,
+    "recall": 0.5918800000000001,
+    "size_mb": 8.042961120605469,
+    "time_ms": 2.8834631159999997
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 3049.715982,
+    "recall": 0.63152,
+    "size_mb": 8.042961120605469,
+    "time_ms": 3.659052108
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 3058.037142,
+    "recall": 0.65984,
+    "size_mb": 8.042961120605469,
+    "time_ms": 4.367530636000001
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 3072.427754,
+    "recall": 0.68052,
+    "size_mb": 8.042961120605469,
+    "time_ms": 5.01261512
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 6163.945602,
+    "recall": 0.5145599999999999,
+    "size_mb": 16.085922241210938,
+    "time_ms": 1.2211766640000001
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 6064.615338,
+    "recall": 0.6048800000000001,
+    "size_mb": 16.085922241210938,
+    "time_ms": 2.13046464
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 6149.745105,
+    "recall": 0.6616000000000001,
+    "size_mb": 16.085922241210938,
+    "time_ms": 3.0406992919999998
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 6152.547851,
+    "recall": 0.6978800000000001,
+    "size_mb": 16.085922241210938,
+    "time_ms": 3.8081556
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 6160.258022,
+    "recall": 0.7466,
+    "size_mb": 16.085922241210938,
+    "time_ms": 5.312113756
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 6147.67524,
+    "recall": 0.7788399999999999,
+    "size_mb": 16.085922241210938,
+    "time_ms": 6.68959314
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 6117.912161,
+    "recall": 0.80376,
+    "size_mb": 16.085922241210938,
+    "time_ms": 8.044244656
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 6157.408847,
+    "recall": 0.8230400000000001,
+    "size_mb": 16.085922241210938,
+    "time_ms": 9.283920248000001
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 9246.635914,
+    "recall": 0.602,
+    "size_mb": 24.128883361816406,
+    "time_ms": 1.769644276
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 9236.329946,
+    "recall": 0.69584,
+    "size_mb": 24.128883361816406,
+    "time_ms": 3.1102301160000003
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 9246.995184,
+    "recall": 0.7504,
+    "size_mb": 24.128883361816406,
+    "time_ms": 4.35667252
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 9105.979728,
+    "recall": 0.7836799999999999,
+    "size_mb": 24.128883361816406,
+    "time_ms": 5.43212872
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 9112.954404,
+    "recall": 0.82724,
+    "size_mb": 24.128883361816406,
+    "time_ms": 7.635261720000001
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 9183.58736,
+    "recall": 0.85468,
+    "size_mb": 24.128883361816406,
+    "time_ms": 9.453462856
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 9114.641582,
+    "recall": 0.8762000000000001,
+    "size_mb": 24.128883361816406,
+    "time_ms": 11.54768578
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 9118.197748,
+    "recall": 0.89024,
+    "size_mb": 24.128883361816406,
+    "time_ms": 13.230407052
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 12352.275847,
+    "recall": 0.67476,
+    "size_mb": 32.171844482421875,
+    "time_ms": 2.300825884
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 12227.959175,
+    "recall": 0.76424,
+    "size_mb": 32.171844482421875,
+    "time_ms": 3.941911056
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 12451.367428,
+    "recall": 0.81248,
+    "size_mb": 32.171844482421875,
+    "time_ms": 5.631908296
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 12201.735823,
+    "recall": 0.84188,
+    "size_mb": 32.171844482421875,
+    "time_ms": 7.056873164
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 12215.862624,
+    "recall": 0.87852,
+    "size_mb": 32.171844482421875,
+    "time_ms": 9.827136892
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 12291.132074,
+    "recall": 0.90212,
+    "size_mb": 32.171844482421875,
+    "time_ms": 12.424370324
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 12322.604575,
+    "recall": 0.9168000000000001,
+    "size_mb": 32.171844482421875,
+    "time_ms": 14.99932988
+  },
+  {
+    "num_hash_bits": 16,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 12130.245554,
+    "recall": 0.93032,
+    "size_mb": 32.171844482421875,
+    "time_ms": 17.107925204
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 3126.875971,
+    "recall": 0.08164,
+    "size_mb": 8.214836120605469,
+    "time_ms": 0.036102336
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 3129.262219,
+    "recall": 0.34391999999999995,
+    "size_mb": 8.214836120605469,
+    "time_ms": 0.400082104
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 3131.270557,
+    "recall": 0.41976,
+    "size_mb": 8.214836120605469,
+    "time_ms": 0.720434804
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 3129.188075,
+    "recall": 0.46476,
+    "size_mb": 8.214836120605469,
+    "time_ms": 0.977241248
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 3126.361422,
+    "recall": 0.49355999999999994,
+    "size_mb": 8.214836120605469,
+    "time_ms": 1.210996832
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 3160.652298,
+    "recall": 0.54,
+    "size_mb": 8.214836120605469,
+    "time_ms": 1.690723716
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 3184.098797,
+    "recall": 0.57224,
+    "size_mb": 8.214836120605469,
+    "time_ms": 2.1650142679999997
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 3142.874954,
+    "recall": 0.60228,
+    "size_mb": 8.214836120605469,
+    "time_ms": 2.611529544
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 3155.237894,
+    "recall": 0.6234,
+    "size_mb": 8.214836120605469,
+    "time_ms": 2.987268796
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 6238.801053,
+    "recall": 0.48588,
+    "size_mb": 16.429672241210938,
+    "time_ms": 0.749960052
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 6251.996729,
+    "recall": 0.5777599999999999,
+    "size_mb": 16.429672241210938,
+    "time_ms": 1.32869732
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 6237.025163,
+    "recall": 0.6269600000000001,
+    "size_mb": 16.429672241210938,
+    "time_ms": 1.7990114240000001
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 6244.441118,
+    "recall": 0.66124,
+    "size_mb": 16.429672241210938,
+    "time_ms": 2.240099256
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 6281.132855,
+    "recall": 0.71088,
+    "size_mb": 16.429672241210938,
+    "time_ms": 3.195452112
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 6235.785123,
+    "recall": 0.74276,
+    "size_mb": 16.429672241210938,
+    "time_ms": 3.9544116039999997
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 6236.603718,
+    "recall": 0.76536,
+    "size_mb": 16.429672241210938,
+    "time_ms": 4.819641988
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 6237.714249,
+    "recall": 0.78504,
+    "size_mb": 16.429672241210938,
+    "time_ms": 5.558841196
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 9354.978326,
+    "recall": 0.57836,
+    "size_mb": 24.644508361816406,
+    "time_ms": 1.07394226
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 9355.997827,
+    "recall": 0.66444,
+    "size_mb": 24.644508361816406,
+    "time_ms": 1.857253156
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 9462.257643,
+    "recall": 0.7116399999999999,
+    "size_mb": 24.644508361816406,
+    "time_ms": 2.649562188
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 9350.205214,
+    "recall": 0.74508,
+    "size_mb": 24.644508361816406,
+    "time_ms": 3.250899136
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 9353.847289,
+    "recall": 0.7869599999999999,
+    "size_mb": 24.644508361816406,
+    "time_ms": 4.608902928
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 9372.565763,
+    "recall": 0.81496,
+    "size_mb": 24.644508361816406,
+    "time_ms": 5.777336432
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 9355.2098,
+    "recall": 0.83676,
+    "size_mb": 24.644508361816406,
+    "time_ms": 6.960051152
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 9480.132302,
+    "recall": 0.8534400000000001,
+    "size_mb": 24.644508361816406,
+    "time_ms": 7.983541192
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 12471.875559,
+    "recall": 0.64896,
+    "size_mb": 32.859344482421875,
+    "time_ms": 1.424436788
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 12476.754859,
+    "recall": 0.72832,
+    "size_mb": 32.859344482421875,
+    "time_ms": 2.509648464
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 12468.79882,
+    "recall": 0.7714,
+    "size_mb": 32.859344482421875,
+    "time_ms": 3.448160144
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 12592.703709,
+    "recall": 0.80376,
+    "size_mb": 32.859344482421875,
+    "time_ms": 4.297534608
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 12636.441399,
+    "recall": 0.8393599999999999,
+    "size_mb": 32.859344482421875,
+    "time_ms": 6.021180036
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 12673.096755,
+    "recall": 0.86448,
+    "size_mb": 32.859344482421875,
+    "time_ms": 7.613700196
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 12468.414334,
+    "recall": 0.8844,
+    "size_mb": 32.859344482421875,
+    "time_ms": 9.086874356000001
+  },
+  {
+    "num_hash_bits": 17,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 12525.095174,
+    "recall": 0.8994399999999999,
+    "size_mb": 32.859344482421875,
+    "time_ms": 10.42137576
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 3300.951459,
+    "recall": 0.08059999999999999,
+    "size_mb": 8.558586120605469,
+    "time_ms": 0.02242466
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 3297.13006,
+    "recall": 0.31868,
+    "size_mb": 8.558586120605469,
+    "time_ms": 0.2543664
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 3346.005001,
+    "recall": 0.38583999999999996,
+    "size_mb": 8.558586120605469,
+    "time_ms": 0.434895244
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 3325.532447,
+    "recall": 0.42672000000000004,
+    "size_mb": 8.558586120605469,
+    "time_ms": 0.6160884879999999
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 3302.672707,
+    "recall": 0.45496000000000003,
+    "size_mb": 8.558586120605469,
+    "time_ms": 0.7544286600000001
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 3315.661273,
+    "recall": 0.49744,
+    "size_mb": 8.558586120605469,
+    "time_ms": 1.04604704
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 3298.68978,
+    "recall": 0.5274000000000001,
+    "size_mb": 8.558586120605469,
+    "time_ms": 1.317935888
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 3300.194346,
+    "recall": 0.55876,
+    "size_mb": 8.558586120605469,
+    "time_ms": 1.574188852
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 3298.315062,
+    "recall": 0.57728,
+    "size_mb": 8.558586120605469,
+    "time_ms": 1.788843188
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 6583.448764,
+    "recall": 0.45692,
+    "size_mb": 17.117172241210938,
+    "time_ms": 0.492103036
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 6579.427766,
+    "recall": 0.5476,
+    "size_mb": 17.117172241210938,
+    "time_ms": 0.8130033
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 6676.833761,
+    "recall": 0.5929200000000001,
+    "size_mb": 17.117172241210938,
+    "time_ms": 1.144580988
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 6664.332771,
+    "recall": 0.6259600000000001,
+    "size_mb": 17.117172241210938,
+    "time_ms": 1.411204264
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 6663.499485,
+    "recall": 0.6728799999999999,
+    "size_mb": 17.117172241210938,
+    "time_ms": 1.9872813280000001
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 6652.712691,
+    "recall": 0.70412,
+    "size_mb": 17.117172241210938,
+    "time_ms": 2.478086648
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 6663.575177,
+    "recall": 0.72912,
+    "size_mb": 17.117172241210938,
+    "time_ms": 2.9594033399999997
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 6667.939116,
+    "recall": 0.7486,
+    "size_mb": 17.117172241210938,
+    "time_ms": 3.4063829439999997
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 9979.072622,
+    "recall": 0.54308,
+    "size_mb": 25.675758361816406,
+    "time_ms": 0.68561676
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 10034.616187,
+    "recall": 0.63828,
+    "size_mb": 25.675758361816406,
+    "time_ms": 1.17559872
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 9969.586909,
+    "recall": 0.68396,
+    "size_mb": 25.675758361816406,
+    "time_ms": 1.642826896
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 10027.659362,
+    "recall": 0.71912,
+    "size_mb": 25.675758361816406,
+    "time_ms": 2.03990116
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 9978.229977,
+    "recall": 0.7593600000000001,
+    "size_mb": 25.675758361816406,
+    "time_ms": 2.829950968
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 10002.717281,
+    "recall": 0.78868,
+    "size_mb": 25.675758361816406,
+    "time_ms": 3.51134984
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 9965.373541,
+    "recall": 0.81052,
+    "size_mb": 25.675758361816406,
+    "time_ms": 4.283931284
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 9862.412923,
+    "recall": 0.82724,
+    "size_mb": 25.675758361816406,
+    "time_ms": 4.880545728
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 13296.151722,
+    "recall": 0.60952,
+    "size_mb": 34.234344482421875,
+    "time_ms": 0.903825552
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 13375.0843,
+    "recall": 0.699,
+    "size_mb": 34.234344482421875,
+    "time_ms": 1.549738252
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 13146.656951,
+    "recall": 0.7449600000000001,
+    "size_mb": 34.234344482421875,
+    "time_ms": 2.133185024
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 13301.602057,
+    "recall": 0.77568,
+    "size_mb": 34.234344482421875,
+    "time_ms": 2.674244312
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 13141.924654,
+    "recall": 0.8113199999999999,
+    "size_mb": 34.234344482421875,
+    "time_ms": 3.684691288
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 13289.621081,
+    "recall": 0.8385199999999999,
+    "size_mb": 34.234344482421875,
+    "time_ms": 4.629687
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 13291.23867,
+    "recall": 0.8572000000000001,
+    "size_mb": 34.234344482421875,
+    "time_ms": 5.533404332
+  },
+  {
+    "num_hash_bits": 18,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 13145.529667,
+    "recall": 0.87212,
+    "size_mb": 34.234344482421875,
+    "time_ms": 6.3720942439999995
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 3642.078129,
+    "recall": 0.06224,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.016420364
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 3592.981332,
+    "recall": 0.29084000000000004,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.181634452
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 3635.610064,
+    "recall": 0.36443999999999993,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.294571416
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 3628.343352,
+    "recall": 0.4008,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.39334505999999997
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 3599.899199,
+    "recall": 0.42888,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.475831468
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 3629.01574,
+    "recall": 0.47456000000000004,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.6522966320000001
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 3642.322893,
+    "recall": 0.50568,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.8175560040000001
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 3597.683383,
+    "recall": 0.52724,
+    "size_mb": 9.246086120605469,
+    "time_ms": 0.949869096
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 3593.804724,
+    "recall": 0.5448,
+    "size_mb": 9.246086120605469,
+    "time_ms": 1.1133997919999998
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 7241.634411,
+    "recall": 0.41196000000000005,
+    "size_mb": 18.492172241210938,
+    "time_ms": 0.339642852
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 7179.230348,
+    "recall": 0.49632000000000004,
+    "size_mb": 18.492172241210938,
+    "time_ms": 0.536251668
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 7280.521541,
+    "recall": 0.55128,
+    "size_mb": 18.492172241210938,
+    "time_ms": 0.73878778
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 7180.260698,
+    "recall": 0.5876800000000001,
+    "size_mb": 18.492172241210938,
+    "time_ms": 0.8968063039999999
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 7167.159348,
+    "recall": 0.6340399999999999,
+    "size_mb": 18.492172241210938,
+    "time_ms": 1.214485748
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 7174.934984,
+    "recall": 0.6653600000000002,
+    "size_mb": 18.492172241210938,
+    "time_ms": 1.5060223719999999
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 7250.289415,
+    "recall": 0.6908800000000002,
+    "size_mb": 18.492172241210938,
+    "time_ms": 1.850511652
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 7255.11677,
+    "recall": 0.7100799999999999,
+    "size_mb": 18.492172241210938,
+    "time_ms": 2.1120424079999998
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 10757.412371,
+    "recall": 0.48771999999999993,
+    "size_mb": 27.738258361816406,
+    "time_ms": 0.459182888
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 10770.063305,
+    "recall": 0.58088,
+    "size_mb": 27.738258361816406,
+    "time_ms": 0.771370412
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 10760.191086,
+    "recall": 0.63808,
+    "size_mb": 27.738258361816406,
+    "time_ms": 1.0481862000000002
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 10756.033627,
+    "recall": 0.67304,
+    "size_mb": 27.738258361816406,
+    "time_ms": 1.269631416
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 10803.729565,
+    "recall": 0.71884,
+    "size_mb": 27.738258361816406,
+    "time_ms": 1.786896708
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 10875.751142,
+    "recall": 0.7470399999999999,
+    "size_mb": 27.738258361816406,
+    "time_ms": 2.170318024
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 10764.953532,
+    "recall": 0.7716,
+    "size_mb": 27.738258361816406,
+    "time_ms": 2.661711144
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 10757.030608,
+    "recall": 0.7892,
+    "size_mb": 27.738258361816406,
+    "time_ms": 3.023658496
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 14569.632944,
+    "recall": 0.56104,
+    "size_mb": 36.984344482421875,
+    "time_ms": 0.593113776
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 14678.906113,
+    "recall": 0.6495599999999999,
+    "size_mb": 36.984344482421875,
+    "time_ms": 0.991585496
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 14626.199799,
+    "recall": 0.7007599999999999,
+    "size_mb": 36.984344482421875,
+    "time_ms": 1.357144684
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 14583.603306,
+    "recall": 0.73156,
+    "size_mb": 36.984344482421875,
+    "time_ms": 1.677107884
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 14653.054205,
+    "recall": 0.77068,
+    "size_mb": 36.984344482421875,
+    "time_ms": 2.308145896
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 14494.321506,
+    "recall": 0.79928,
+    "size_mb": 36.984344482421875,
+    "time_ms": 2.8430704999999996
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 14577.801679,
+    "recall": 0.8192,
+    "size_mb": 36.984344482421875,
+    "time_ms": 3.3928098679999996
+  },
+  {
+    "num_hash_bits": 19,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 14509.429726,
+    "recall": 0.8365199999999999,
+    "size_mb": 36.984344482421875,
+    "time_ms": 3.920166588
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 4216.607379,
+    "recall": 0.057640000000000004,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.01446556
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 4235.442219,
+    "recall": 0.2862,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.13708879999999998
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 4215.040317,
+    "recall": 0.34456,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.20842382799999998
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 4206.966387,
+    "recall": 0.38204,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.26562273599999997
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 4192.49497,
+    "recall": 0.406,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.323006808
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 4276.073872,
+    "recall": 0.44276,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.42957764800000003
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 4192.617665,
+    "recall": 0.47168000000000004,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.515730272
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 4203.534265,
+    "recall": 0.49776,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.6108830040000001
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 4256.976217,
+    "recall": 0.51548,
+    "size_mb": 10.621086120605469,
+    "time_ms": 0.696605188
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 8380.346709,
+    "recall": 0.39464,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.23485313600000002
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 8522.937588,
+    "recall": 0.4656,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.367861084
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 8386.065914,
+    "recall": 0.5164,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.490662608
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 8383.743343,
+    "recall": 0.54852,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.58679806
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 8529.204681,
+    "recall": 0.59688,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.7830455399999999
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 8381.865001,
+    "recall": 0.6293200000000001,
+    "size_mb": 21.242172241210938,
+    "time_ms": 0.978493692
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 8378.004197,
+    "recall": 0.6541999999999999,
+    "size_mb": 21.242172241210938,
+    "time_ms": 1.1571826040000002
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 8512.066367,
+    "recall": 0.6715599999999999,
+    "size_mb": 21.242172241210938,
+    "time_ms": 1.3454557440000001
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 12514.556081,
+    "recall": 0.47124,
+    "size_mb": 31.863258361816406,
+    "time_ms": 0.33418148000000003
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 12502.846058,
+    "recall": 0.54924,
+    "size_mb": 31.863258361816406,
+    "time_ms": 0.515833116
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 12632.84406,
+    "recall": 0.59556,
+    "size_mb": 31.863258361816406,
+    "time_ms": 0.686996888
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 12631.610446,
+    "recall": 0.62824,
+    "size_mb": 31.863258361816406,
+    "time_ms": 0.8476731559999999
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 12625.32576,
+    "recall": 0.6752,
+    "size_mb": 31.863258361816406,
+    "time_ms": 1.148433788
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 12707.758218,
+    "recall": 0.7076399999999998,
+    "size_mb": 31.863258361816406,
+    "time_ms": 1.413201408
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 12834.863565,
+    "recall": 0.7309200000000001,
+    "size_mb": 31.863258361816406,
+    "time_ms": 1.665154988
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 12563.369042,
+    "recall": 0.7489600000000001,
+    "size_mb": 31.863258361816406,
+    "time_ms": 1.929504132
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 16849.481955,
+    "recall": 0.5296000000000001,
+    "size_mb": 42.484344482421875,
+    "time_ms": 0.429256776
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 16924.059632,
+    "recall": 0.6147199999999999,
+    "size_mb": 42.484344482421875,
+    "time_ms": 0.680285116
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 16884.066257,
+    "recall": 0.65652,
+    "size_mb": 42.484344482421875,
+    "time_ms": 0.894633004
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 16890.708036,
+    "recall": 0.69156,
+    "size_mb": 42.484344482421875,
+    "time_ms": 1.1055648040000001
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 16828.864834,
+    "recall": 0.73648,
+    "size_mb": 42.484344482421875,
+    "time_ms": 1.4730039320000001
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 16872.827833,
+    "recall": 0.7650399999999999,
+    "size_mb": 42.484344482421875,
+    "time_ms": 2.404507916
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 16859.640662,
+    "recall": 0.78668,
+    "size_mb": 42.484344482421875,
+    "time_ms": 2.8818795799999997
+  },
+  {
+    "num_hash_bits": 20,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 17043.931015,
+    "recall": 0.80572,
+    "size_mb": 42.484344482421875,
+    "time_ms": 3.165239508
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 4986.657441,
+    "recall": 0.04908,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.011888504
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 4983.276124,
+    "recall": 0.25596,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.104568652
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 4965.537211,
+    "recall": 0.31192000000000003,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.152660668
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 4980.969597,
+    "recall": 0.34364,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.19613003599999998
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 4970.10469,
+    "recall": 0.36696000000000006,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.23680608
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 4984.996306,
+    "recall": 0.40292,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.305815544
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 4945.527814,
+    "recall": 0.4272,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.365026348
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 4983.204071,
+    "recall": 0.45376,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.434429256
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 4962.661361,
+    "recall": 0.4704,
+    "size_mb": 13.371086120605469,
+    "time_ms": 0.491603412
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 9928.598356,
+    "recall": 0.3604,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.175889484
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 10015.420373,
+    "recall": 0.43268000000000006,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.260279664
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 9937.965256,
+    "recall": 0.4804,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.33020805599999997
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 10022.360251,
+    "recall": 0.5086799999999999,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.403615852
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 10019.308036,
+    "recall": 0.54692,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.5275886839999999
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 9898.934398,
+    "recall": 0.58136,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.65413984
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 9951.031584,
+    "recall": 0.6028,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.7782994360000001
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 9898.048028,
+    "recall": 0.62212,
+    "size_mb": 26.742172241210938,
+    "time_ms": 0.8982392680000001
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 14831.926876,
+    "recall": 0.42568,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.240019284
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 14801.662163,
+    "recall": 0.51116,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.360728236
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 14851.621345,
+    "recall": 0.5536,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.46835787599999995
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 14887.551785,
+    "recall": 0.5828799999999998,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.5759500040000001
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 14860.707099,
+    "recall": 0.6278400000000001,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.770407568
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 14790.487335,
+    "recall": 0.6596400000000001,
+    "size_mb": 40.113258361816406,
+    "time_ms": 0.951021828
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 14927.668057,
+    "recall": 0.6844399999999999,
+    "size_mb": 40.113258361816406,
+    "time_ms": 1.130178372
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 14795.538061,
+    "recall": 0.70052,
+    "size_mb": 40.113258361816406,
+    "time_ms": 1.263478536
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 19755.346309,
+    "recall": 0.48775999999999997,
+    "size_mb": 53.484344482421875,
+    "time_ms": 0.30685934800000003
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 19633.284618,
+    "recall": 0.56728,
+    "size_mb": 53.484344482421875,
+    "time_ms": 0.467906088
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 20065.780448,
+    "recall": 0.6098399999999999,
+    "size_mb": 53.484344482421875,
+    "time_ms": 0.6067923
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 19843.264369,
+    "recall": 0.64104,
+    "size_mb": 53.484344482421875,
+    "time_ms": 0.735856448
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 19740.012055,
+    "recall": 0.68296,
+    "size_mb": 53.484344482421875,
+    "time_ms": 0.988250092
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 19649.008296,
+    "recall": 0.717,
+    "size_mb": 53.484344482421875,
+    "time_ms": 1.226271712
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 19717.850298,
+    "recall": 0.7384,
+    "size_mb": 53.484344482421875,
+    "time_ms": 1.496868616
+  },
+  {
+    "num_hash_bits": 21,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 19638.228273,
+    "recall": 0.75624,
+    "size_mb": 53.484344482421875,
+    "time_ms": 1.697320076
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 5081.105365,
+    "recall": 0.0436,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.009242104
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 5107.743956,
+    "recall": 0.23268,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.079053752
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 5071.111096,
+    "recall": 0.28312000000000004,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.113122552
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 5110.307349,
+    "recall": 0.313,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.141766904
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 5045.33905,
+    "recall": 0.33436,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.16505888
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 5080.504124,
+    "recall": 0.36696000000000006,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.216169524
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 5061.914997,
+    "recall": 0.39519999999999994,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.261011672
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 5006.088522,
+    "recall": 0.4124,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.297215636
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 5069.885075,
+    "recall": 0.42876,
+    "size_mb": 18.87108612060547,
+    "time_ms": 0.331459764
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 10159.485473,
+    "recall": 0.32424000000000003,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.13290423999999998
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 10123.058843,
+    "recall": 0.39664,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.18646949200000001
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 10101.236599,
+    "recall": 0.44036000000000003,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.23991970399999998
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 10005.665136,
+    "recall": 0.47188,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.2793066
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 10173.477834,
+    "recall": 0.51216,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.364350888
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 10130.966582,
+    "recall": 0.53804,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.44837057199999997
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 10023.861142,
+    "recall": 0.5584399999999999,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.517478024
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 10114.992927,
+    "recall": 0.5760799999999999,
+    "size_mb": 37.74217224121094,
+    "time_ms": 0.583582148
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 15201.915678,
+    "recall": 0.386,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.182180128
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 15017.259106,
+    "recall": 0.46392,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.262266924
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 15180.416678,
+    "recall": 0.5147200000000001,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.330973536
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 15175.502998,
+    "recall": 0.54564,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.394711212
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 15005.07071,
+    "recall": 0.586,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.520922684
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 15209.055516,
+    "recall": 0.61548,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.628719032
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 15330.246132,
+    "recall": 0.6357200000000001,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.758718636
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 15381.918865,
+    "recall": 0.6539599999999999,
+    "size_mb": 56.613258361816406,
+    "time_ms": 0.850965944
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 20131.651068,
+    "recall": 0.44439999999999996,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.228274804
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 20170.262785,
+    "recall": 0.52508,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.33129346
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 20336.934532,
+    "recall": 0.57048,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.42520586
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 20346.881791,
+    "recall": 0.6012000000000001,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.5058419
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 20137.13923,
+    "recall": 0.6386400000000001,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.669620948
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 20377.991285,
+    "recall": 0.66652,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.819440844
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 20327.473283,
+    "recall": 0.6879200000000001,
+    "size_mb": 75.48434448242188,
+    "time_ms": 0.970666904
+  },
+  {
+    "num_hash_bits": 22,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 20338.572964,
+    "recall": 0.70796,
+    "size_mb": 75.48434448242188,
+    "time_ms": 1.113977988
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 5132.516516,
+    "recall": 0.038,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.00806318
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 5253.808642,
+    "recall": 0.20464,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.06444448
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 5164.3251,
+    "recall": 0.2552,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.08856798
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 5187.693181,
+    "recall": 0.2875599999999999,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.107981752
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 5106.20461,
+    "recall": 0.31004,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.12850548
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 5133.055269,
+    "recall": 0.34136,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.15837684
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 5139.210647,
+    "recall": 0.36436,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.189500556
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 5133.644155,
+    "recall": 0.38380000000000003,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.21926158799999998
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 5175.757173,
+    "recall": 0.39752,
+    "size_mb": 29.87108612060547,
+    "time_ms": 0.24783042
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 10337.199417,
+    "recall": 0.29375999999999997,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.106300148
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 10241.992777,
+    "recall": 0.35764,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.145906324
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 10284.25409,
+    "recall": 0.39944,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.178047008
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 10286.833745,
+    "recall": 0.42972000000000005,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.20856376399999998
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 10280.940009,
+    "recall": 0.47008000000000005,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.266246428
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 10275.277072,
+    "recall": 0.49588,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.320759368
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 10384.433725,
+    "recall": 0.517,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.375590664
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 10385.505126,
+    "recall": 0.5345599999999999,
+    "size_mb": 59.74217224121094,
+    "time_ms": 0.426593072
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 15541.564896,
+    "recall": 0.35424,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.14312904
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 15422.763012,
+    "recall": 0.42648,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.201180064
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 15417.357603,
+    "recall": 0.47284000000000004,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.248371744
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 15431.263881,
+    "recall": 0.5052,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.29348905999999997
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 15400.920009,
+    "recall": 0.54668,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.375966784
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 15494.690869,
+    "recall": 0.57584,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.459380476
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 15658.190036,
+    "recall": 0.5986,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.538675916
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 15512.466363,
+    "recall": 0.6154000000000001,
+    "size_mb": 89.6132583618164,
+    "time_ms": 0.611575184
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 20457.807546,
+    "recall": 0.40308000000000005,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.185733948
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 20713.88743,
+    "recall": 0.47996000000000005,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.26120846
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 20632.906423,
+    "recall": 0.52696,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.32465141999999997
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 20445.921599,
+    "recall": 0.55912,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.38039648
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 20641.90538,
+    "recall": 0.6041200000000001,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.491390084
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 20426.441313,
+    "recall": 0.6297200000000001,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.593026016
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 20682.958009,
+    "recall": 0.65264,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.71202892
+  },
+  {
+    "num_hash_bits": 23,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 20539.103899,
+    "recall": 0.67064,
+    "size_mb": 119.48434448242188,
+    "time_ms": 0.7952374640000001
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 5345.877822,
+    "recall": 0.03344,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.006836696
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 5356.045749,
+    "recall": 0.18588,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.053247152
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 5316.226642,
+    "recall": 0.2324,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.071648712
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 5344.813158,
+    "recall": 0.25956,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.08539898
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 5377.993945,
+    "recall": 0.28084000000000003,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.099624332
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 5399.128548,
+    "recall": 0.30932,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.125298028
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 5437.893558,
+    "recall": 0.33227999999999996,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.144328908
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 5327.58328,
+    "recall": 0.34912,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.16907584
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 5409.607273,
+    "recall": 0.36008000000000007,
+    "size_mb": 51.87108612060547,
+    "time_ms": 0.185089516
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 10692.639649,
+    "recall": 0.26788,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.08772782800000001
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 10572.230398,
+    "recall": 0.32968000000000003,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.118907136
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 10710.206488,
+    "recall": 0.36816,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.142798312
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 10677.474547,
+    "recall": 0.39332,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.165281484
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 10600.94398,
+    "recall": 0.43276,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.21129218
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 10705.23856,
+    "recall": 0.45968,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.246013024
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 10651.385783,
+    "recall": 0.481,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.283785028
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 10620.340125,
+    "recall": 0.49992,
+    "size_mb": 103.74217224121094,
+    "time_ms": 0.32506908
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 15877.424247,
+    "recall": 0.3282,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.11939162399999999
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 15970.942425,
+    "recall": 0.39144,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.162628004
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 16073.281605,
+    "recall": 0.43392000000000003,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.200800492
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 15967.161145,
+    "recall": 0.46364,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.23113408000000002
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 16141.178526,
+    "recall": 0.50612,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.296681752
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 16206.003502,
+    "recall": 0.53396,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.34983571599999996
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 15959.284757,
+    "recall": 0.55688,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.40258656000000004
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 16005.452126,
+    "recall": 0.57472,
+    "size_mb": 155.6132583618164,
+    "time_ms": 0.459177212
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 21502.934091,
+    "recall": 0.37155999999999995,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.15472380000000002
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 21595.37807,
+    "recall": 0.44252,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.21048560800000002
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 21438.09271,
+    "recall": 0.48484000000000005,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.25779552
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 21163.105935,
+    "recall": 0.5153600000000002,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.298808896
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 21386.521797,
+    "recall": 0.55636,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.38054529200000003
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 21618.524952,
+    "recall": 0.58488,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.456424672
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 21192.803416,
+    "recall": 0.6065999999999999,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.528105604
+  },
+  {
+    "num_hash_bits": 24,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 21165.776061,
+    "recall": 0.62552,
+    "size_mb": 207.48434448242188,
+    "time_ms": 0.59839774
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 5665.648979,
+    "recall": 0.03172,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.006294052
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 5690.448507,
+    "recall": 0.18256,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.046720392
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 5726.028181,
+    "recall": 0.22108,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.061329664
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 5761.891275,
+    "recall": 0.24924,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.072396412
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 5669.024103,
+    "recall": 0.27108000000000004,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.08299983600000001
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 5697.153609,
+    "recall": 0.29876,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.10162648
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 5750.206804,
+    "recall": 0.31684,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.118514404
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 5685.086248,
+    "recall": 0.33364,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.1349104
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 5673.894781,
+    "recall": 0.34896,
+    "size_mb": 95.87108612060547,
+    "time_ms": 0.15104768000000002
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 11353.79397,
+    "recall": 0.25583999999999996,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.079628348
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 11504.35117,
+    "recall": 0.30668,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.105257172
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 11518.121655,
+    "recall": 0.3414,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.123512216
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 11534.692705,
+    "recall": 0.36972,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.141173616
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 11366.876534,
+    "recall": 0.40844,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.17425045600000003
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 11270.285401,
+    "recall": 0.43307999999999996,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.204653528
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 11344.155588,
+    "recall": 0.45072,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.233307684
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 11289.134625,
+    "recall": 0.466,
+    "size_mb": 191.74217224121094,
+    "time_ms": 0.25903226
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 17196.710167,
+    "recall": 0.30724,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.10740714
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 17097.131321,
+    "recall": 0.36616,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.14128978
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 16945.494828,
+    "recall": 0.40848,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.17088789199999999
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 17055.620117,
+    "recall": 0.43307999999999996,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.19805999600000002
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 17072.989129,
+    "recall": 0.47172000000000003,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.241265104
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 17219.160785,
+    "recall": 0.49992,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.284593612
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 17282.544038,
+    "recall": 0.5204,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.325992348
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 16981.339246,
+    "recall": 0.5366799999999999,
+    "size_mb": 287.6132583618164,
+    "time_ms": 0.362872804
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 22699.455118,
+    "recall": 0.35248,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.13851665600000002
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 22978.583685,
+    "recall": 0.41979999999999995,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.180877604
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 22990.16093,
+    "recall": 0.4570000000000001,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.21697669200000003
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 22958.438997,
+    "recall": 0.48216000000000003,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.251817056
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 22687.016626,
+    "recall": 0.52424,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.317324096
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 22655.994979,
+    "recall": 0.5531200000000001,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.373835516
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 23003.353678,
+    "recall": 0.57448,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.42536564
+  },
+  {
+    "num_hash_bits": 25,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 22650.38608,
+    "recall": 0.59196,
+    "size_mb": 383.4843444824219,
+    "time_ms": 0.477662252
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 1,
+    "build_time_ms": 6381.731568,
+    "recall": 0.03032,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.005878412
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 25,
+    "build_time_ms": 6310.900787,
+    "recall": 0.16876,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.04171098
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 50,
+    "build_time_ms": 6298.70676,
+    "recall": 0.20980000000000001,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.055178536
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 75,
+    "build_time_ms": 6497.514891,
+    "recall": 0.23344,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.06510912
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 100,
+    "build_time_ms": 6293.681804,
+    "recall": 0.24747999999999995,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.07390302
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 150,
+    "build_time_ms": 6388.25862,
+    "recall": 0.2748,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.09030642
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 200,
+    "build_time_ms": 6379.13444,
+    "recall": 0.2952,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.104853576
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 250,
+    "build_time_ms": 6317.971763,
+    "recall": 0.31188,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.118591252
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 1,
+    "probes_per_table": 300,
+    "build_time_ms": 6354.407286,
+    "recall": 0.325,
+    "size_mb": 183.87108612060547,
+    "time_ms": 0.13177264400000002
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 25,
+    "build_time_ms": 12601.511057,
+    "recall": 0.23539999999999997,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.070826212
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 50,
+    "build_time_ms": 12740.75503,
+    "recall": 0.28936,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.094338552
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 75,
+    "build_time_ms": 12563.746645,
+    "recall": 0.31824,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.11344592
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 100,
+    "build_time_ms": 12748.5082,
+    "recall": 0.34176,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.126098388
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 150,
+    "build_time_ms": 12600.869948,
+    "recall": 0.37792,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.153558056
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 200,
+    "build_time_ms": 12735.80726,
+    "recall": 0.40512,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.17875664
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 250,
+    "build_time_ms": 12588.052117,
+    "recall": 0.42248,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.204810184
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 2,
+    "probes_per_table": 300,
+    "build_time_ms": 12597.74014,
+    "recall": 0.43868,
+    "size_mb": 367.74217224121094,
+    "time_ms": 0.226262836
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 25,
+    "build_time_ms": 19123.102646,
+    "recall": 0.28403999999999996,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.09911548399999999
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 50,
+    "build_time_ms": 19060.38332,
+    "recall": 0.34524,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.126479836
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 75,
+    "build_time_ms": 18990.484886,
+    "recall": 0.37988,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.150436652
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 100,
+    "build_time_ms": 18847.49485,
+    "recall": 0.40444,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.1708239
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 150,
+    "build_time_ms": 18907.264896,
+    "recall": 0.44380000000000003,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.212138724
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 200,
+    "build_time_ms": 19089.860543,
+    "recall": 0.46772,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.248442812
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 250,
+    "build_time_ms": 18912.997633,
+    "recall": 0.48724,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.28732334800000003
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 3,
+    "probes_per_table": 300,
+    "build_time_ms": 19036.868865,
+    "recall": 0.5020399999999999,
+    "size_mb": 551.6132583618164,
+    "time_ms": 0.32031091199999995
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 25,
+    "build_time_ms": 25490.299746,
+    "recall": 0.33215999999999996,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.127964356
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 50,
+    "build_time_ms": 25172.381803,
+    "recall": 0.39524000000000004,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.162408564
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 75,
+    "build_time_ms": 25170.5028,
+    "recall": 0.43032,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.191035156
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 100,
+    "build_time_ms": 25149.279169,
+    "recall": 0.45664,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.220247584
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 150,
+    "build_time_ms": 25418.266614,
+    "recall": 0.49572,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.27239251200000003
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 200,
+    "build_time_ms": 25141.768099,
+    "recall": 0.5217999999999999,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.32241712
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 250,
+    "build_time_ms": 25453.189639,
+    "recall": 0.54256,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.375107528
+  },
+  {
+    "num_hash_bits": 26,
+    "num_hash_tables": 4,
+    "probes_per_table": 300,
+    "build_time_ms": 25248.64725,
+    "recall": 0.55852,
+    "size_mb": 735.4843444824219,
+    "time_ms": 0.415107908
+  }
+]

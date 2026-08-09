@@ -1,0 +1,5 @@
+include README.md
+include LICENSE.txt
+include internal/python_wrapper.cc
+recursive-include include *
+recursive-include external *
